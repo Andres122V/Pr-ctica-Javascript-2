@@ -23,5 +23,15 @@
         <a class="item_menu" href="pokemon.html">Pokemon</a>
         <a class="item_menu" href="mario.html">Marrio</a>
     </div> <br> Java es un lenguaje de programación y plataforma de software muy popular y versátil. <br>
+    <div id="demo"></div>
+
+    <script>
+        document.getElementById("demo").innerHTML = "location is" + location.href + "<br>";
+
+        document.getElementById("demo").innerHTML += "hostname is" + location.hostname + "<br>";
+
+        document.getElementById("demo").innerHTML += "path is" + location.pathname + "<br>";
+        
+    </script>
 </body>
 </html>
